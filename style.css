@@ -53,3 +53,20 @@ body {
 .hidden {
   display: none;
 }
+@media (max-width: 600px) {
+  .container {
+    width: 90vw;
+  }
+  #city-input {
+    width: 70%;
+  }
+  #get-weather-btn {
+    width: 20%;
+  }
+  h2,
+  p {
+    width: 90%;
+  }
+}
+
+
